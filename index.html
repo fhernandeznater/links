@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <head>
-     <!-- where we tell the browser how to process the document: -->
-        <!-- what title to put in the browser tab -->
-        <!-- what language to use -->
-          <!-- we will always use a character set called UTF-8 -->
-          <!-- UTF-8 allows for all languages as well as things like emoji -->
+  <title>Federico Hernandez Nater — Links</title>
+  <meta charset="UTF-8">
 
   <style>
-    * {
-    border: thin red solid;
-    }
+
     body {
       padding-top: 40px;
       padding-bottom: 40px;
       background-color: #faeee7;
+      display: flex;
+      justify-content: center;
     }
 
     .banner-image {
       width: 128px;
-      height: 128px; 
+      height: 128px;
+      object-fit: cover;
       border-radius: 32px;
     }
 
@@ -40,7 +38,7 @@
 
     .social-icons{
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
     }
 
     .social-icons a {
@@ -48,25 +46,27 @@
       text-decoration: none;
     }
 
-    .items{
+    .items {
       display: flex;
       flex-direction: column;
       gap: 30px;
       max-width: 640px;
+      flex-grow: 1;
     }
 
-    .link{
-      background-color: #ff8ba7
+
+    .link {
+      background-color: #ff8ba7;
+      display: flex;
+      align-items: center;
+      padding: 5px;
     }
 
     .link a {
       color: #33272a;
-      text-decoration: none;
       text-align: center;
       flex-grow: 1;
-      justify-content: center;
     }
-
 
   </style>
 </head>
